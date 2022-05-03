@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto', 'Courier New', Courier;
+    background-color: aliceblue;
+}
+
+#container {
+    background-color: #C0C0C0;
+    box-shadow: 4px 3px 8px 1px #969696;
+    position: relative;
+    margin: 30px;
+    border: 0;
+}
+
+.content {
+    width: 90%;
+    margin: 3%;
+    padding: 2%;
+    background-color: #FFFFFF;
+    position: inherit;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: bold;
+    border-style: double none none none;
+}
