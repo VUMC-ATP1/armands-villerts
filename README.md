@@ -1,1 +1,8 @@
-# armands-villerts
+# About me
+
+[Lorem Ipsum](https://www.lipsum.com/)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu enim vitae nisi varius fringilla et non nisi. Etiam id quam odio. Vivamus elementum placerat ligula, eu pharetra felis rhoncus faucibus. Praesent nisl justo, pulvinar eget volutpat ut, scelerisque id tellus. Proin magna diam, tincidunt at nisl a, elementum consectetur ipsum. Sed id enim lorem. Praesent aliquet malesuada diam, a maximus dui vehicula eleifend. Duis erat leo, tincidunt eget aliquam id, convallis eget massa. Pellentesque volutpat tincidunt commodo. Maecenas sit amet ante fringilla, congue enim mattis, elementum sem. Nunc suscipit sodales augue ut pharetra. Sed nec gravida diam. Nullam imperdiet odio nisl, mattis lacinia mi dignissim consectetur. Aliquam finibus urna tortor, vel pretium dolor tincidunt vitae.
+
+![We have cookies](img/join_the_dark_side.jpg)
+
+Phasellus ultricies ligula sem, a ultricies lacus rutrum id. In hac habitasse platea dictumst. In eu velit in ante tristique ornare. Fusce porttitor lectus diam, non rutrum tortor sagittis et. Suspendisse potenti. Quisque non enim metus. Phasellus eu porttitor eros, vitae vulputate arcu. Morbi gravida malesuada diam nec accumsan. Donec dictum vehicula rutrum. Sed rhoncus cursus neque, ac malesuada enim. Quisque risus ex, condimentum sit amet ligula vitae, rhoncus sagittis quam. Etiam fermentum massa turpis. Quisque id consequat mauris, a pulvinar nunc. Integer lectus. 
