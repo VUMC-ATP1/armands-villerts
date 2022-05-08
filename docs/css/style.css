@@ -1,26 +1,97 @@
 body {
-    font-family: 'Roboto', 'Courier New', Courier;
-    background-color: aliceblue;
-}
-
-#container {
-    background-color: #C0C0C0;
-    box-shadow: 4px 3px 8px 1px #969696;
-    position: relative;
-    margin: 30px;
-    border: 0;
-}
-
-.content {
-    width: 90%;
-    margin: 3%;
-    padding: 2%;
     background-color: #FFFFFF;
-    position: inherit;
+    background-image: url('../img/bg-gradient.png');
+    background-repeat: repeat-y;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #070707;
 }
 
-.copyright {
+#outer-container {
+    position: static;
+    background-color: #C0C0C0;
+    background-image: repeating-linear-gradient(#283F3B, #95BF74);
+    margin: 20px;
+    padding: 10px;
+    min-width: 600px;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+#inner-container {
+    position: static;
+    background-color: #FFFFFF;
+    margin: 15px;
+    padding: 10px 20px 10px 20px;
+    max-width: 1400px;
+    border: 1px solid #666666;
+    border-radius: 10px;
+    box-shadow: 5px 4px 8px 1px #070707;
+}
+
+#footer {
+    position: sticky;
+    bottom: 0px;
+    background-color: #666666;
+    padding: 2px;
+    color: #FFFFFF;
     text-align: center;
-    font-weight: bold;
-    border-style: double none none none;
+    border-top: double #333333;
+}
+
+h1 {
+    color: #0B4F6C;
+    font-size: 200%;
+    padding: 5px 0px 10px 3px;
+    text-shadow: 3px 2px 5px #A9A9A9;
+    border-bottom: #218380 double;
+}
+
+h2 {
+    color: #00635D;
+    font-size: 160%;
+    padding: 5px 0px 10px 3px;
+    text-shadow: 3px 2px 5px #A9A9A9;
+    border-bottom: #B0CA87 dotted;
+}
+
+h3 {
+    color: #00635D;
+    font-size: 130%;
+    padding: 5px 0px 0px 3px;
+}
+
+p {
+    color: #333333;
+    padding: 2px 0px 2px 0px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+ul {
+    list-style: disc;
+    list-style-position: outside;
+    color: #070707;
+}
+
+ol {
+    list-style: decimal-leading-zero;
+    list-style-position: outside;
+}
+
+a {
+    color: #095CA0;
+    text-decoration: double underline #095CA0;
+}
+
+a:hover,
+a:active {
+    text-decoration: none;
+    color: #00FFFF;
+    background-color: #5F81A0;
+}
+
+img {
+    position: relative;
 }
