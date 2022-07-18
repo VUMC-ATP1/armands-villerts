@@ -1,0 +1,14 @@
+package runner;
+
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
+import org.testng.annotations.AfterMethod;
+import utils.webDriverManager;
+
+@CucumberOptions(features = "src/test/resources/features", glue = {"step_defs"}, plugin = {"pretty", "html:target/cucumber-reports/report.html"}, publish = true)
+public class TestRunner extends AbstractTestNGCucumberTests {
+    @AfterMethod(alwaysRun = true)
+    public void after() {
+        webDriverManager.closeBrowser();
+    }
+}
